@@ -1,0 +1,10 @@
+{
+   "technologieKvet": [
+     {
+       "technologiKvet": "spalovací pístový motor s rekuperací tepla",
+       "instalovanyTepelnyVykon": 0,
+       "instalovanyElektrickyVykon": 0
+     }
+   ],
+   "pocetTechnologii": 1
+ }

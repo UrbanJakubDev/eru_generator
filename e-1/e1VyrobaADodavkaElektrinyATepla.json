@@ -1,0 +1,15 @@
+{
+   "vyrobaADodavkaElektrinyATepla": [
+     {
+       "typ": "elektro",
+       "ztraty": 0,
+       "bruttoVyroba": 0,
+       "pouzitePalivo": "Zemni plyn",
+       "bilancniRozdil": 0,
+       "primeDodavkyCizimSubjektum": 0,
+       "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0,
+       "technologickaVlastniSpotrebaNaVyrobuTepla": 0,
+       "technologickaVlastniSpotrebaNaVyrobuElektriny": 0
+     }
+   ]
+ }

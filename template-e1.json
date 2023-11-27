@@ -1,0 +1,110 @@
+{
+  "typVykazu": "E1",
+  "vykazy": [
+    {
+      "e1vykaz": {
+        "e1Paliva": {
+          "paliva": [
+            {
+              "typPaliva": "Zemni plyn",
+              "jednotkaPaliva": "MWh",
+              "vyhrevnostHodnota": 0,
+              "vyhrevnostJednotka": "MJ/m3",
+              "porizeniPalivaCelkem": 0,
+              "spotrebaPalivaVyrobaTepla": 0,
+              "spotrebaPalivaVyrobaElektriny": 0
+            }
+          ]
+        },
+        "pocetPaliv": 1,
+        "e1Komentar": {
+          "komentar": ""
+        },
+        "e1BilanceKvet": {
+          "bilanceKvet": [
+            {
+              "palivoPouziteNaKvet": "Zemni plyn",
+              "vsazkaPalivaHodnota": 0,
+              "vyrobaElektrinyBrutto": 0,
+              "dodavkaUzitecnehoTepla": 0
+            }
+          ]
+        },
+        "e1TechnologieKvet": {
+          "technologieKvet": [
+            {
+              "technologiKvet": "spalovací pístový motor s rekuperací tepla",
+              "instalovanyTepelnyVykon": 0,
+              "instalovanyElektrickyVykon": 0
+            }
+          ],
+          "pocetTechnologii": 1
+        },
+        "e1BilanceDodavekAZdroju": {
+          "bilanceDodavekAZdrojuI": [
+            {
+              "saldo": 0,
+              "ztraty": 0,
+              "nakupOdber": 0,
+              "bilanceZdroju": "elektro",
+              "bilancniRozdil": 0,
+              "vlastniSpotrebaCelkem": 0,
+              "spotrebaElektrinyNaPrecerpavaniVPve": 0
+            }
+          ],
+          "bilanceDodavekAZdrojuII": [
+            {
+              "doprava": 0,
+              "ostatni": 0,
+              "prumysl": 0,
+              "domacnosti": 0,
+              "energetika": 0,
+              "stavebnictvi": 0,
+              "bilanceDodavek": "teplo",
+              "zemedelstviALesnictvi": 0,
+              "dodavkyObchodnimSubjektum": 0,
+              "obchodSluzbySkolstviZdravotnictvi": 0
+            }
+          ]
+        },
+        "e1VyrobaADodavkaElektrinyATepla": {
+          "vyrobaADodavkaElektrinyATepla": [
+            {
+              "typ": "elektro",
+              "ztraty": 0,
+              "bruttoVyroba": 0,
+              "pouzitePalivo": "Zemni plyn",
+              "bilancniRozdil": 0,
+              "primeDodavkyCizimSubjektum": 0,
+              "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0,
+              "technologickaVlastniSpotrebaNaVyrobuTepla": 0,
+              "technologickaVlastniSpotrebaNaVyrobuElektriny": 0
+            }
+          ]
+        },
+        "e1TechnologieAInstalovanyVykonVyrobny": {
+          "kraj": "",
+          "idVyrobny": "",
+          "nazevVyrobny": "",
+          "pripojenoKPsDs": "",
+          "technologieVyrobny": "Ostatní (OST)",
+          "celkovyInstalovanyTepelnyVykonMWt": 0,
+          "celkovyInstalovanyElektrickyVykonMWe": 0
+        }
+      },
+      "identifikacniUdajeVykazu": {
+        "ico": "",
+        "typVykazu": "E1",
+        "typPeriody": "MONTH",
+        "cisloLicence": ["", ""],
+        "vykazovanyRok": 2023,
+        "datovaSchranka": "",
+        "drzitelLicence": "Čez Energo s.r.o.",
+        "kontaktniTelefon": "+420721055966",
+        "vykazovanaPerioda": 9,
+        "odpovednyPracovnik": "Jakub Urban",
+        "datumVytvoreniVykazu": "2023-09-30"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+   "bilanceKvet": [
+     {
+       "palivoPouziteNaKvet": "Zemni plyn",
+       "vsazkaPalivaHodnota": 0,
+       "vyrobaElektrinyBrutto": 0,
+       "dodavkaUzitecnehoTepla": 0
+     }
+   ]
+ }

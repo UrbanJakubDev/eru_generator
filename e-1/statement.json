@@ -1,0 +1,25 @@
+{
+   "e1vykaz":{
+      "e1Paliva": {},
+       "pocetPaliv": 1,
+       "e1Komentar": { "komentar": ""},
+       "e1BilanceKvet": {},
+       "e1TechnologieKvet": {},
+       "e1BilanceDodavekAZdroju": {},
+       "e1VyrobaADodavkaElektrinyATepla": {},
+       "e1TechnologieAInstalovanyVykonVyrobny": {}
+   },
+   "identifikacniUdajeVykazu": {
+      "ico": "",
+      "typVykazu": "E1",
+      "typPeriody": "MONTH",
+      "cisloLicence": ["", ""],
+      "vykazovanyRok": 2023,
+      "datovaSchranka": "",
+      "drzitelLicence": "Čez Energo s.r.o.",
+      "kontaktniTelefon": "+420721055966",
+      "vykazovanaPerioda": 9,
+      "odpovednyPracovnik": "Jakub Urban",
+      "datumVytvoreniVykazu": "2023-09-30"
+    }
+}

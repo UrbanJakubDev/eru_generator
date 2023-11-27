@@ -1,0 +1,13 @@
+{
+   "paliva": [
+     {
+       "typPaliva": "Zemni plyn",
+       "jednotkaPaliva": "MWh",
+       "vyhrevnostHodnota": 0,
+       "vyhrevnostJednotka": "MJ/m3",
+       "porizeniPalivaCelkem": 0,
+       "spotrebaPalivaVyrobaTepla": 0,
+       "spotrebaPalivaVyrobaElektriny": 0
+     }
+   ]
+ }
