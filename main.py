@@ -190,6 +190,7 @@ handler.make_statements(date=today, df=data)
 
 json_output = handler.generate_statements()
 
+
 # Save the JSON to a file
-with open('data.json', 'w') as outfile:
+with open('data.json', 'w', encoding="utf-8") as outfile:
     json.dump(json_output, outfile, indent=4, ensure_ascii=False)
