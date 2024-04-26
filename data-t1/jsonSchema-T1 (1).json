@@ -1,0 +1,512 @@
+{
+  "type": "object",
+  "properties": {
+    "typVykazu": {
+      "type": "string",
+      "enum": [
+        "T1"
+      ]
+    },
+    "vykazy": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "t1": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "mesice": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [],
+                  "properties": {
+                    "kraje": {
+                      "type": "object",
+                      "required": [],
+                      "properties": {
+                        "kraje": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "required": [],
+                            "properties": {
+                              "dataZaKraj": {
+                                "type": "string",
+                                "enum": [
+                                  "Hlavní město Praha",
+                                  "Jihočeský",
+                                  "Jihomoravský",
+                                  "Karlovarský",
+                                  "Královéhradecký",
+                                  "Liberecký",
+                                  "Moravskoslezský",
+                                  "Olomoucký",
+                                  "Pardubický",
+                                  "Plzeňský",
+                                  "Středočeský",
+                                  "Ústecký",
+                                  "Vysočina",
+                                  "Zlínský"
+                                ]
+                              },
+                              "vykazaneHodnoty": {
+                                "type": "object",
+                                "required": [],
+                                "properties": {
+                                  "paliva": {
+                                    "type": "object",
+                                    "required": [],
+                                    "properties": {
+                                      "paliva": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "required": [],
+                                          "properties": {
+                                            "typPaliva": {
+                                              "type": "string",
+                                              "enum": [
+                                                "Biomasa - Brikety a pelety",
+                                                "Biomasa - Celulozove vyluhy",
+                                                "Biomasa - Kapalna biopaliva",
+                                                "Biomasa - Ostatni biomasa",
+                                                "Biomasa - Palivove drivi",
+                                                "Biomasa - Piliny kura stepky drevni odpad",
+                                                "Biomasa - Rostlinne materialy neaglomerovane (vcetne aglomeratu)",
+                                                "Bioplyn - Kalovy plyn",
+                                                "Bioplyn - Ostatni bioplyn",
+                                                "Bioplyn - Skladkovy plyn",
+                                                "Biometan",
+                                                "Cernouhelne kaly a granulat",
+                                                "Cerne uhli tridene",
+                                                "Cerne uhli prumyslove",
+                                                "Elektricka energie",
+                                                "Energie prostredi (tepelne cerpadlo)",
+                                                "Energie Slunce (solarni kolektor)",
+                                                "Hnede uhli - Brikety",
+                                                "Hnede uhli prumyslove",
+                                                "Hnede uhli tridene",
+                                                "Hnede uhli - Lignit",
+                                                "Hnede uhli - Mourove kaly",
+                                                "Jaderne palivo",
+                                                "Koks",
+                                                "Odpadni teplo",
+                                                "Ostatni kapalna paliva - Dehet",
+                                                "Ostatni kapalna paliva - Organika",
+                                                "Ostatni kapalna paliva - Dehtova topna smes (DTS)",
+                                                "Ostatni kapalna paliva - Technol.palivo",
+                                                "Ostatni kapalna paliva - Nezatridene",
+                                                "Ostatni pevna paliva - Prumyslovy odpad",
+                                                "Ostatni pevna paliva - Tuhy komunalni odpad",
+                                                "Ostatni pevna paliva - Nezatridene",
+                                                "Ostatni plyny - Degazacni plyn",
+                                                "Ostatni plyny - Energoplyn",
+                                                "Ostatni plyny - Koksarensky plyn",
+                                                "Ostatni plyny - Vysokopecni plyn",
+                                                "Ostatni plyny - Konvertorovy plyn",
+                                                "Ostatni plyny - LPG",
+                                                "Ostatni plyny - Topny Plyn",
+                                                "Ostatni plyny - Vzduchocpavkova smes (druhotny zdroj)",
+                                                "Ostatni plyny - Chudy expanzni plyn",
+                                                "Ostatni plyny - Rafinersky plyn",
+                                                "Ostatni plyny - Zbytkovy plyn",
+                                                "Ostatni plyny - Nezatridene",
+                                                "Topne oleje s obsahem siry do 0.2% hm.",
+                                                "Topne oleje s obsahem siry do 1.0% hm.",
+                                                "Topne oleje s obsahem siry nad 1.0% hm.",
+                                                "Zemni plyn",
+                                                "Ostatni"
+                                              ]
+                                            },
+                                            "jednotkyPaliv": {
+                                              "type": "string",
+                                              "enum": [
+                                                "t",
+                                                "GJ",
+                                                "tis. m3",
+                                                "MWh"
+                                              ]
+                                            },
+                                            "porizeniPaliv": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "spotrebaPaliva": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "vyhrevnostHodnota": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "vyhrevnostJednotky": {
+                                              "type": "string",
+                                              "enum": [
+                                                "GJ/t",
+                                                "MJ/m3"
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "pocetPaliv": {
+                                        "type": "string"
+                                      },
+                                      "vyrobaADodavkaTepla": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "required": [],
+                                          "properties": {
+                                            "ztraty": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "typPaliva": {
+                                              "type": "string"
+                                            },
+                                            "bruttoVyroba": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "bilancniRozdil": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "primeDodavkyCizimSubjektum": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "technologickaVlastniSpotreba": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            },
+                                            "dodavkyDoVlastnihoPodnikuNeboZarizeni": {
+                                              "anyOf": [
+                                                {
+                                                  "type": "number"
+                                                },
+                                                {
+                                                  "type": "null"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "bilanceDodavekAZdroju": {
+                                    "type": "object",
+                                    "required": [],
+                                    "properties": {
+                                      "nakup": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "saldo": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "ztraty": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "doprava": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "ostatni": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "prumysl": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "domacnosti": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "energetika": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "bruttoVyroba": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "stavebnictvi": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "bilancniRozdil": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "vlastniSpotreba": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "zemedelstviALesnictvi": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "dodavkyObchodnimSubjektum": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      },
+                                      "obchodSluzbySkolstviZdravotnictvi": {
+                                        "anyOf": [
+                                          {
+                                            "type": "number"
+                                          },
+                                          {
+                                            "type": "null"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "celkovyInstalovanyVykon": {
+                                    "anyOf": [
+                                      {
+                                        "type": "number"
+                                      },
+                                      {
+                                        "type": "null"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "dataZaMesic": {
+                      "type": "integer",
+                      "enum": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "t1Komentar": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "komentar": {
+                "type": "string"
+              }
+            }
+          },
+          "identifikacniUdajeVykazu": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "ico": {
+                "type": "string"
+              },
+              "typVykazu": {
+                "type": "string",
+                "enum": [
+                  "T1"
+                ]
+              },
+              "typPeriody": {
+                "type": "string",
+                "enum": [
+                  "QUARTER"
+                ]
+              },
+              "cisloLicence": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "vykazovanyRok": {
+                "type": "integer"
+              },
+              "datovaSchranka": {
+                "type": "string"
+              },
+              "drzitelLicence": {
+                "type": "string"
+              },
+              "kontaktniTelefon": {
+                "type": "string"
+              },
+              "vykazovanaPerioda": {
+                "type": "integer"
+              },
+              "odpovednyPracovnik": {
+                "type": "string"
+              },
+              "datumVytvoreniVykazu": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "typVykazu",
+    "vykazy"
+  ],
+  "additionalProperties": false
+}

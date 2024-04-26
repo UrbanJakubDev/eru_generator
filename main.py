@@ -12,11 +12,12 @@ from typing import List, Optional
 class JsonHandler:
     def __init__(self):
         self.statements = []
+        self.data_dir = os.path.join(os.path.dirname(__file__), "data-e1")
 
-    def read_file(self, excel_file_path: str):
+    def read_file(self, excel_file_path: str, sheet_name: str):
         # Assuming your Excel file has a sheet named 'Sheet1'
 
-        df = pd.read_excel(excel_file_path, sheet_name='Export23', skiprows=0, header=1)
+        df = pd.read_excel(excel_file_path, sheet_name=sheet_name, skiprows=0, header=1)
         # Assuming your Excel sheet has columns like 'typPaliva', 'jednotkaPaliva', etc.
         return df.fillna(0)
 
@@ -30,8 +31,8 @@ class JsonHandler:
             self.statements.append(statement)
 
     def make_statement(self, row, date) -> dict:
-        # Convert date to string in format YYYY-MM-DD
-        datestr = date.strftime("%Y-%m-%d")
+        # Actual date-time string
+        datestr = datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
         
         json = {
             "e1vykaz": {
@@ -48,7 +49,7 @@ class JsonHandler:
                         }
                     ]
                 },
-                "pocetPaliv": 1,
+                "pocetPaliv": "1",
                 "e1Komentar": {
                     "komentar": ""
                 },
@@ -65,12 +66,12 @@ class JsonHandler:
                 "e1TechnologieKvet": {
                     "technologieKvet": [
                         {
-                            "technologiKvet": "spalovací pístový motor s rekuperací tepla",
+                            "technologieKvet": "spalovací pístový motor s rekuperací tepla",
                             "instalovanyTepelnyVykon": row["instalovanyTepelnyVykon"],
                             "instalovanyElektrickyVykon": row["instalovanyElektrickyVykon"],
                         }
                     ],
-                    "pocetTechnologii": 1
+                    "pocetTechnologii": "1"
                 },
                 "e1BilanceDodavekAZdroju": {
                     "bilanceDodavekAZdrojuI": [
@@ -121,6 +122,17 @@ class JsonHandler:
                 },
                 "e1VyrobaADodavkaElektrinyATepla": {
                     "vyrobaADodavkaElektrinyATepla": [
+                         {
+                            "typ": "elektro",
+                            "ztraty": row["ve-ztraty"],
+                            "bruttoVyroba": row["ve-bruttoVyroba"],
+                            "pouzitePalivo": "Zemni plyn",
+                            "bilancniRozdil": 0,
+                            "primeDodavkyCizimSubjektum": row["ve-primeDodavkyCizimSubjektum"],
+                            "dodavkyDoVlastnihoPodnikuNeboZarizeni": row["ve-dodavkyDoVlastnihoPodnikuNeboZarizeni"],
+                            "technologickaVlastniSpotrebaNaVyrobuTepla": row["ve-technologickaVlastniSpotrebaNaVyrobuTepla"],
+                            "technologickaVlastniSpotrebaNaVyrobuElektriny": row["ve-technologickaVlastniSpotrebaNaVyrobuElektriny"]
+                        },
                         {
                             "typ": "teplo",
                             "ztraty": row["vt-ztraty"],
@@ -131,17 +143,6 @@ class JsonHandler:
                             "dodavkyDoVlastnihoPodnikuNeboZarizeni": row["vt-dodavkyDoVlastnihoPodnikuNeboZarizeni"],
                             "technologickaVlastniSpotrebaNaVyrobuTepla": row["vt-technologickaVlastniSpotrebaNaVyrobuTepla"],
                             "technologickaVlastniSpotrebaNaVyrobuElektriny": row["vt-technologickaVlastniSpotrebaNaVyrobuElektriny"]
-                        },
-                        {
-                            "typ": "elektro",
-                            "ztraty": row["ve-ztraty"],
-                            "bruttoVyroba": row["ve-bruttoVyroba"],
-                            "pouzitePalivo": "Zemni plyn",
-                            "bilancniRozdil": 0,
-                            "primeDodavkyCizimSubjektum": row["ve-primeDodavkyCizimSubjektum"],
-                            "dodavkyDoVlastnihoPodnikuNeboZarizeni": row["ve-dodavkyDoVlastnihoPodnikuNeboZarizeni"],
-                            "technologickaVlastniSpotrebaNaVyrobuTepla": row["ve-technologickaVlastniSpotrebaNaVyrobuTepla"],
-                            "technologickaVlastniSpotrebaNaVyrobuElektriny": row["ve-technologickaVlastniSpotrebaNaVyrobuElektriny"]
                         }
                     ]
                 },
@@ -153,6 +154,8 @@ class JsonHandler:
                     "technologieVyrobny": "Plynová a spalovací (PSE)",
                     "celkovyInstalovanyTepelnyVykonMWt": row["instalovanyTepelnyVykon"],
                     "celkovyInstalovanyElektrickyVykonMWe": row["instalovanyElektrickyVykon"],
+                    "licencovanyCelkovyInstalovanyTepelnyVykonMWt": row["instalovanyTepelnyVykon"],
+                    "licencovanyCelkovyInstalovanyElektrickyVykonMWe": row["instalovanyElektrickyVykon"]
                 }
             },
             "identifikacniUdajeVykazu": {
@@ -160,11 +163,11 @@ class JsonHandler:
                 "typVykazu": "E1",
                 "typPeriody": "MONTH",
                 "cisloLicence": ["111018325", ],
-                "vykazovanyRok": date.year,
+                "vykazovanyRok": int(date.year),
                 "datovaSchranka": "n9mpdz8",
                 "drzitelLicence": "ČEZ Energo, s.r.o.",
                 "kontaktniTelefon": "+420721055966",
-                "vykazovanaPerioda": row["vykazovanaPerioda"],
+                "vykazovanaPerioda": int(row["vykazovanaPerioda"]),
                 "odpovednyPracovnik": "Jakub Urban",
                 "datumVytvoreniVykazu": datestr,
             }
@@ -183,7 +186,15 @@ class JsonHandler:
 
 # Usage example:
 handler = JsonHandler()
-data = handler.read_file("./XML Generování.xlsm")
+
+#Local inFile path
+# infile = os.path.join(handler.data_dir, 'XML Generování-latest.xlsm')
+
+# File path to the Excel file stored in oneDrive
+infile = '/mnt/c/Users/JakubUrban/OneDrive - ČEZ Energo, s.r.o/_Pracovní 2024/02_ERU/XML Generování.xlsm'
+
+
+data = handler.read_file(infile, 'ExportERU')
 
 today = datetime.date.today()
 handler.make_statements(date=today, df=data)
@@ -192,5 +203,7 @@ json_output = handler.generate_statements()
 
 
 # Save the JSON to a file
-with open('data.json', 'w', encoding="utf-8") as outfile:
+
+outfile_path = os.path.join(handler.data_dir, 'data.json')
+with open(outfile_path, 'w', encoding="utf-8") as outfile:
     json.dump(json_output, outfile, indent=4, ensure_ascii=False)
