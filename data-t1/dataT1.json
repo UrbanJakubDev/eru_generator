@@ -1,0 +1,2079 @@
+{
+    "typVykazu": "T1",
+    "vykazy": [
+        {
+            "identifikacniUdajeVykazu": {
+                "ico": "29060109",
+                "typVykazu": "T1",
+                "typPeriody": "QUARTER",
+                "cisloLicence": [
+                    "311018326",
+                    "321018327"
+                ],
+                "vykazovanyRok": 2024,
+                "datovaSchranka": "jakub.urban@hotmail.com",
+                "drzitelLicence": "ČEZ Energo, s.r.o.",
+                "kontaktniTelefon": "+420721055966",
+                "vykazovanaPerioda": 1,
+                "odpovednyPracovnik": "Jakub Urban",
+                "datumVytvoreniVykazu": "2024-04-30T11:21:15.244Z"
+            },
+            "t1Komentar": {
+                "komentar": "Some comment for T1"
+            },
+            "t1": {
+                "mesice": [
+                    {
+                        "dataZaMesic": 1,
+                        "kraje": {
+                            "kraje": [
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "3",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dataZaMesic": 2,
+                        "kraje": {
+                            "kraje": [
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "3",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dataZaMesic": 3,
+                        "kraje": {
+                            "kraje": [
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "3",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                },
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                },
+                                {
+                                    "dataZaKraj": "Jihočeský",
+                                    "vykazaneHodnoty": {
+                                        "paliva": {
+                                            "pocetPaliv": "1",
+                                            "paliva": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "jednotkyPaliv": "MWh",
+                                                    "porizeniPaliv": 1077.903,
+                                                    "spotrebaPaliva": 704.796,
+                                                    "vyhrevnostHodnota": 34.572
+                                                }
+                                            ],
+                                            "vyrobaADodavkaTepla": [
+                                                {
+                                                    "typPaliva": "Zemni plyn",
+                                                    "ztraty": 0,
+                                                    "bruttoVyroba": 1896.918,
+                                                    "bilancniRozdil": 0,
+                                                    "primeDodavkyCizimSubjektum": 1896.918,
+                                                    "technologickaVlastniSpotreba": 0,
+                                                    "dodavkyDoVlastnihoPodnikuNeboZarizeni": 0.0
+                                                }
+                                            ]
+                                        },
+                                        "celkovyInstalovanyVykon": 2.894,
+                                        "bilanceDodavekAZdroju": {
+                                            "nakup": 0,
+                                            "saldo": 0,
+                                            "ztraty": 0,
+                                            "doprava": 0,
+                                            "ostatni": 0,
+                                            "prumysl": 0,
+                                            "domacnosti": 1267.198,
+                                            "energetika": 0,
+                                            "bruttoVyroba": 1896.918,
+                                            "stavebnictvi": 0,
+                                            "bilancniRozdil": 0,
+                                            "vlastniSpotreba": 0,
+                                            "zemedelstviALesnictvi": 0,
+                                            "dodavkyObchodnimSubjektum": 220,
+                                            "obchodSluzbySkolstviZdravotnictvi": 409.72
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
